@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Wallpoet&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1fd73055b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 id="logo"><span class="firstletter">T</span>anishq.</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-right">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#mywork">My Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-title">
+                        <h4 class="title">&lt;b&gt;Web-Developer&lt;/b&gt;</h4>
+                        <p class="intro-para">Hi, This is <span>Tanishq<br>Rinjay</span>, an aspiring Developer</p>
+                        <img src="./images/banner.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 pic"></div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- About -------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 image">
+                    <img src="./images/about.png" alt="">
+                </div>
+                <div class="col-md-7 offset-md-1 about-text">
+                    <h1><b>About Me</b></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate harum atque quisquam nisi,
+                        velit, totam hic tenetur vero maiores corporis ad ullam dolor ipsam mollitia necessitatibus
+                        autem odit expedita! Non laborum sapiente perspiciatis id animi modi ipsum aspernatur
+                        dignissimos eveniet sequi a perferendis, est saepe neque qui enim eaque error!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web-Developer</span><br>Designing Front-end</li>
+                            <li><span>*Skill2*</span><br>*Figma prolly*</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web-Development</span><br>Working Regularly From September 2022</li>
+                            <li><span>*Exp2*</span><br>*Made Some small Websites*</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Under Graduation</span><br>BTech from Bangalore</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Services -------------------------->
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="row">
+                <div class="col-md-3half service-blocks">
+                    <div class="s-block-content skill-1">
+                        <h2><b class="fa-sharp fa-solid fa-code"></b></h2>
+                        <h3>Web-Design</h3>
+                        <p>I started Learning Web-Design and now I kind of got grip by creating some of the projects.
+                        </p>
+                        <a href="">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-half"></div>
+                <div class="col-md-3half service-blocks">
+                    <div class="s-block-content skill-2">
+                        <h2><b class="fa-brands fa-figma"></b></h2>
+                        <h3>*Figma*</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, quibusdam. Iste quaerat
+                            dolores aliquam ullam.</p>
+                        <a href="">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-half"></div>
+                <div class="col-md-3half service-blocks">
+                    <div class="s-block-content skill-3">
+                        <h2><b class="fa-sharp fa-solid fa-question"></b></h2>
+                        <h3>*Skill 3*</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, quibusdam. Iste quaerat
+                            dolores aliquam ullam.</p>
+                        <a href="">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- My Work -------------------------->
+
+    <div id="mywork">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="row">
+                <div class="col-md-3half work-blocks first-work">
+                    <img src="./images/My-Work-1.jpeg" alt="">
+                    <div class="w-block-content layer">
+                        <h5>My First Website</h5>
+                        <p>This is my first website, i ever created including responsiveness on all screens</p>
+                        <a href="https://tanishqrinjay.github.io/Bootstrap_Responsive/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-half"></div>
+                <div class="col-md-3half work-blocks second-work">
+                    <img src="./images/My-Work-1.jpeg" alt="">
+                    <div class="w-block-content layer">
+                        <h5>Site Without Bootstrap</h5>
+                        <p>I once created one website using bootstrap and this one is same site without bootstrap</p>
+                        <a href="https://tanishqrinjay.github.io/Without_Bootstrap" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-half"></div>
+                <div class="col-md-3half work-blocks third-work">
+                    <img src="./images/My-Work-1.jpeg" alt="">
+                    <div class="w-block-content layer">
+                        <h5>*Working*</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis inventore voluptatem
+                            consequuntur est placeat.</p>
+                        <a href="about:blank" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more-btn">
+                <a href="">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- Contact -------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Contact Me</h1>
+                    <div class="mail"><i class="fa-solid fa-envelope"></i> tanishqbaranwal@gmail.com</div>
+                    <div class="phone"><i class="fa-solid fa-phone"></i> 9718292763</div>
+                    <ul class="social-icons">
+                        <li><a target="_blank" href="https://twitter.com/TanishqRinjay"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/tanishq.rj/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/tanishq-rinjay-2885411a5/"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                    <div class="download-cv-btn"><a href="./misc/blank.pdf" download>Download CV</a></div>
+                </div>
+                <div class="col-md-8">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                    <div class="submission-response"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------- Footer -------------------------->
+    <div id="footer">
+        <span>Copyright <i class="fa-regular fa-copyright"></i> TanishqRinjay 2023</span>
+    </div>
+</body>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzukGW7oADytuv08f4BqteQdqCaDtUVKf0VYTNhmXkdctrTk31x5CE5YPl4YRvVWsXz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementsByClassName("submission-response")[0];
+    const footer = document.getElementById("footer");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerText = "Message Sent Successfully";
+                footer.style.marginTop = "26px";
+                setTimeout(function () {
+                    msg.innerText = "";
+                    footer.style.marginTop = "50px";
+                }, 5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</html>
